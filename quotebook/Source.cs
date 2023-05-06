@@ -12,6 +12,6 @@ public class Source
     }
     public string Stringify()
     {
-        return $"{_name} {-url}";
+        return $"{_name} {_url}";
     }
 }
