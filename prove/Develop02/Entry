@@ -1,0 +1,39 @@
+public class Entry 
+{
+
+    public string Prompt;
+    public string date;
+    public string location;
+    public string text;
+    public string emotion;
+
+    public Entry()
+    {
+        Console.WriteLine("What is the date of this Entry? ")
+        string date = Console.ReadLine() ?? string.Empty;
+        Console.WriteLine("Where are you writing this? ")
+
+        string location = Console.ReadLine() ?? string.Empty;
+        string Prompt = GetRandomPrompt();
+
+        Console.WriteLIne("Begin writing your entry: ")
+        
+    }
+
+
+
+    public void DisplayEntry()
+    {
+
+    }
+
+    
+
+
+
+    
+    
+
+
+
+}
