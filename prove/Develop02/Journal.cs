@@ -9,6 +9,8 @@ public class Journal
     {
 
     }
+    
+    
     public void Display()
     {
         Console.WriteLine("\n->->->->->-> Journal Entries <-<-<-<-<-<-");

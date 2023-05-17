@@ -34,5 +34,6 @@ public class JournalPrompt
         int index = random.Next(_journalPrompt.Count);
         string journalPrompt = _journalPrompt[index];
         return journalPrompt;
-        }
+    
+    }
     }
